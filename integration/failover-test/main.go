@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
-	"github.com/apache/incubator-pegasus/go-client/pegasus"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegasus"
 )
 
 // This test intends to verify if go-client can failover automatically on TCP breakdown.

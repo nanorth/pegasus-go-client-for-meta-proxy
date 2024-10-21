@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/rrdb"
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/rrdb"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
 )
 
 // ScannerOptions is the options for GetScanner and GetUnorderedScanners.

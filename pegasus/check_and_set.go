@@ -19,7 +19,7 @@
 
 package pegasus
 
-import "github.com/apache/incubator-pegasus/go-client/idl/rrdb"
+import "github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/rrdb"
 
 // CheckType defines the types of value checking in a CAS.
 type CheckType int

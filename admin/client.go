@@ -25,10 +25,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/admin"
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/replication"
-	"github.com/apache/incubator-pegasus/go-client/session"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/admin"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/replication"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/session"
 )
 
 // Client provides the administration API to a specific cluster.

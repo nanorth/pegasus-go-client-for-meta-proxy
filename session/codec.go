@@ -26,15 +26,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/admin"
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/cmd"
-	"github.com/apache/incubator-pegasus/go-client/idl/radmin"
-	"github.com/apache/incubator-pegasus/go-client/idl/replication"
-	"github.com/apache/incubator-pegasus/go-client/idl/rrdb"
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
-	"github.com/apache/incubator-pegasus/go-client/rpc"
 	"github.com/apache/thrift/lib/go/thrift"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/admin"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/cmd"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/radmin"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/replication"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/rrdb"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/rpc"
 )
 
 type PegasusCodec struct {

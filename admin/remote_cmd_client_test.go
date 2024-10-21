@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apache/incubator-pegasus/go-client/session"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/session"
 )
 
 func TestAdmin_RemoteCommandCall(t *testing.T) {

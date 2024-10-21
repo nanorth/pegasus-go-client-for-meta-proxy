@@ -109,8 +109,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/admin"
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/admin"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
 )
 `)
 
@@ -165,8 +165,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/radmin"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/radmin"
 )
 `)
 

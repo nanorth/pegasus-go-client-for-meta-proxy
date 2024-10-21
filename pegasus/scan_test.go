@@ -29,10 +29,10 @@ import (
 	"time"
 
 	"github.com/agiledragon/gomonkey"
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/rrdb"
-	"github.com/apache/incubator-pegasus/go-client/session"
 	"github.com/fortytw2/leaktest"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/rrdb"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/session"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -38,8 +38,8 @@ import (
     "encoding/binary"
     "time"
 
-    "github.com/apache/incubator-pegasus/go-client/pegalog"
-    "github.com/apache/incubator-pegasus/go-client/pegasus"
+    "github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
+    "github.com/nanorth/pegasus-go-client-for-meta-proxy/pegasus"
 )
 
 func searchHistoryOneYearAgo() {

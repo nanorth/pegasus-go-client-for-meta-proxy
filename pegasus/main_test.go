@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
 )
 
 func TestMain(m *testing.M) {

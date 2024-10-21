@@ -23,10 +23,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/replication"
-	"github.com/apache/incubator-pegasus/go-client/idl/rrdb"
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/replication"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/rrdb"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
 	kerrors "k8s.io/apimachinery/pkg/util/errors"
 )
 

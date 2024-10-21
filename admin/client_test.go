@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/admin"
-	"github.com/apache/incubator-pegasus/go-client/idl/replication"
-	"github.com/apache/incubator-pegasus/go-client/pegasus"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/admin"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/replication"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegasus"
 	"github.com/stretchr/testify/assert"
 )
 

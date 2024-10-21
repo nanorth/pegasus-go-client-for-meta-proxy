@@ -22,8 +22,8 @@ package base
 import (
 	"testing"
 
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
 	"github.com/apache/thrift/lib/go/thrift"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
 	"github.com/stretchr/testify/assert"
 )
 

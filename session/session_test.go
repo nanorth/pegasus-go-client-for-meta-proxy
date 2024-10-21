@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/replication"
-	"github.com/apache/incubator-pegasus/go-client/idl/rrdb"
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
-	"github.com/apache/incubator-pegasus/go-client/rpc"
 	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/fortytw2/leaktest"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/replication"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/rrdb"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

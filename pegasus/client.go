@@ -23,8 +23,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/apache/incubator-pegasus/go-client/pegalog"
-	"github.com/apache/incubator-pegasus/go-client/session"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/pegalog"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/session"
 )
 
 // Client manages the client sessions to the pegasus cluster specified by `Config`.

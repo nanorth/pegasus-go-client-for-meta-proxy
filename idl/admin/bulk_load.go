@@ -9,9 +9,9 @@ import (
 	"database/sql/driver"
 	"errors"
 	"fmt"
-	"github.com/apache/incubator-pegasus/go-client/idl/base"
-	"github.com/apache/incubator-pegasus/go-client/idl/replication"
 	"github.com/apache/thrift/lib/go/thrift"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/base"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/idl/replication"
 	"reflect"
 )
 

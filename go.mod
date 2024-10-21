@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-module github.com/apache/incubator-pegasus/go-client
+module github.com/nanorth/pegasus-go-client-for-meta-proxy
 
 go 1.18
 

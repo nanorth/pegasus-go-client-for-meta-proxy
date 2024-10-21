@@ -18,7 +18,7 @@ under the License.
 -->
 # pegasus-go-client
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/apache/incubator-pegasus/go-client)](https://goreportcard.com/report/github.com/apache/incubator-pegasus/go-client)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nanorth/pegasus-go-client-for-meta-proxy)](https://goreportcard.com/report/github.com/nanorth/pegasus-go-client-for-meta-proxy)
 
 ## Requirement
 
@@ -76,7 +76,7 @@ support for other log destinations or log formats, please submit an issue for th
     import (
         "context"
 
-        "github.com/apache/incubator-pegasus/go-client/pegasus"
+        "github.com/nanorth/pegasus-go-client-for-meta-proxy/pegasus"
     )
 
     cfg := Config{

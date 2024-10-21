@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/incubator-pegasus/go-client/rpc"
 	"github.com/fortytw2/leaktest"
+	"github.com/nanorth/pegasus-go-client-for-meta-proxy/rpc"
 	"github.com/stretchr/testify/assert"
 )
 
