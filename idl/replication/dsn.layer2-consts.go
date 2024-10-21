@@ -7,7 +7,6 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/apache/incubator-pegasus/idl/base"
 	"github.com/apache/thrift/lib/go/thrift"
 	"reflect"
 )

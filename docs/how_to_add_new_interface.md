@@ -40,16 +40,16 @@ you can follow [the building manual of thrift](https://thrift.apache.org/docs/Bu
 3. Compile thrift files to generate go code.
 
 ```sh
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/backup.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/bulk_load.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/dsn.layer2.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/dsn.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/duplication.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/meta_admin.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/metadata.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/partition_split.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/replica_admin.thrift
-thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/apache/incubator-pegasus/idl/' ../idl/rrdb.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/backup.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/bulk_load.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/dsn.layer2.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/dsn.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/duplication.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/meta_admin.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/metadata.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/partition_split.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/replica_admin.thrift
+thrift -I ../idl -out idl --gen go:thrift_import='github.com/apache/thrift/lib/go/thrift',package_prefix='github.com/nanorth/pegasus-go-client-for-meta-proxy' ../idl/rrdb.thrift
 gofmt -w **/*.go
 goimports -w */**.go
 ```
